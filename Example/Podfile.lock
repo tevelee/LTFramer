@@ -1,0 +1,29 @@
+PODS:
+  - Expecta (1.0.5)
+  - LTFramer (1.0):
+    - LTFramer/Core (= 1.0)
+  - LTFramer/Convenience (1.0)
+  - LTFramer/Core (1.0)
+  - LTFramer/Stack (1.0):
+    - LTFramer/Core
+  - Specta (1.0.5)
+
+DEPENDENCIES:
+  - Expecta
+  - LTFramer (from `../`)
+  - LTFramer/Convenience (from `../`)
+  - LTFramer/Stack (from `../`)
+  - Specta
+
+EXTERNAL SOURCES:
+  LTFramer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  LTFramer: 1bef651e46959d3b74958042b70be9b437be1104
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+
+PODFILE CHECKSUM: 88d6fc7455e0acc9ed06d9c0b31f2f52782ef947
+
+COCOAPODS: 1.1.1

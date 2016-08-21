@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'LTFramer_Example' do
+  pod 'LTFramer', :path => '../'
+  pod 'LTFramer/Convenience', :path => '../'
+  pod 'LTFramer/Stack', :path => '../'
+
+  target 'LTFramer_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
+end
